@@ -1,0 +1,12 @@
+# Node modules
+**/node_modules/
+
+# Create-React-App build
+client/build/
+
+# Server build (if any)
+server/dist/
+
+# Environment files
+**/.env
+**/.env.local
