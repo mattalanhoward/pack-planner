@@ -10,7 +10,7 @@ import listRoutes from './routes/list.routes.js';
 // Load environment variables
 dotenv.config({ path: './.env' });
 
-const { MONGO_URI, PORT = 3000, API_PREFIX = '/api' } = process.env;
+const { MONGO_URI, PORT = 5000, API_PREFIX = '/api' } = process.env;
 
 // Connect to MongoDB
 mongoose.connect(MONGO_URI)

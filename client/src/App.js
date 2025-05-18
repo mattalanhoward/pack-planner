@@ -23,7 +23,6 @@ function App() {
   return (
     <>
       {isSaving && <Loader />}
-test
       <div className="app-container flex min-h-screen">
         {isAuthenticated && (
           <aside className="w-64 bg-gray-100">
